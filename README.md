@@ -75,3 +75,8 @@ int main() {
 	std::cout << "\nDuration = " << std::chrono::duration_cast<std::chrono::seconds>(end - begin).count() << " seconds" << std::endl;
 	return 0;
 }
+
+Write a program that adds two n-bit binary numbers, stored in two arrays of size n. The some should be stored in an array of size (n+1).
+2.1 Write a program that finds the maximum element in an array of size n. 2.1.1 State the problem formally. 2.1.2 Prove the correctness by stating the loop invariant and making sure it fulfills all three properties: initializatation, maintenance and termination. 2.1.3 Analyse the running time.
+
+2.2 Use the maximum finding algorithm to construct and implement an algorithm that sorts the given array of integers in non-increasing order. 2.2.1 Prove the correctness by stating the loop invariant and making sure it fulfills all three properties: initializatation, maintenance and termination. 2.2.2 Analyse the running time.
